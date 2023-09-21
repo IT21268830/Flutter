@@ -29,7 +29,6 @@ class Dashboard extends StatelessWidget {
           ),
         ],
       ),
-
       drawer: Drawer(
         child: ListView(
           children: [
@@ -37,7 +36,7 @@ class Dashboard extends StatelessWidget {
               accountName: Text("Janith Kaushalya"),
               accountEmail: Text("Janith@gmail.com"),
               currentAccountPicture: CircleAvatar(
-                foregroundImage: AssetImage("images/better.jpg"),
+                foregroundImage: AssetImage("assets/images/better.jpg"),
               ),
             ),
             ListTile(
